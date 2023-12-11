@@ -12,3 +12,9 @@ kind was primarily designed for testing Kubernetes itself, but may be used for l
 3.  **k3d**
 k3d is a lightweight wrapper to run k3s (Rancher Lab’s minimal Kubernetes distribution) in docker.
 k3d makes it very easy to create single- and multi-node k3s clusters in docker, e.g. for local development on Kubernetes.
+
+**Characteristics**
+| |**minikube**|**kind**|**k3d**|
+|--|--|--|--|
+|**Supported OS and archs**  |Linux (x86-64 ARM64 ARMv7 ppc64 s390x), macOS (x86-64 ARM64), Windows (x86-64)|Linux (x86-64 ARM64), macOS (x86-64 ARM64), Windows (x86-64)|Linux (x86-64 ARM64), macOS (x86-64 ARM64), Windows (x86-64)|
+|**Monitoring**|Dashboard|||
