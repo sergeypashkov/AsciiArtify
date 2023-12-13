@@ -21,4 +21,42 @@ k3d makes it very easy to create single- and multi-node k3s clusters in docker, 
 |**Multi-node**|+|+|+|
 |**IPv6**|-|+|+|
 
+**Pros&Cons**
+
+1.  **minikube**
+
+Pros:
+  * A lot of addons and drivers
+  * Deploys Kubernetes as a container, VM or bare-metal
+  * Dashboard that allows you to view and manage your cluster from a web browser.
+
+Cons:
+  * Not for production
+  * Slow startup
+
+2.  **kind**
+   
+Pros:
+  * Very fast
+
+Cons:
+  * Still in development
+  * Lack of documentation
+  * No dashboard
+
+3.  **k3d**
+   
+   Pros:
+  * Very fast
+  * Based on k3s, easier to switch to the production environment
+
+Cons:
+  * No dashboard
+
+**Demonstration**
+
 [<img alt="alt_text" width="800px" src="hello.gif" />]
+
+**Summary**
+
+I recommend k3d as a mature product which is based on a fast k3s engine
