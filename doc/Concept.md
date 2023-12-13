@@ -18,3 +18,5 @@ k3d makes it very easy to create single- and multi-node k3s clusters in docker, 
 |--|--|--|--|
 |**Supported OS and archs**  |Linux (x86-64 ARM64 ARMv7 ppc64 s390x), macOS (x86-64 ARM64), Windows (x86-64)|Linux (x86-64 ARM64), macOS (x86-64 ARM64), Windows (x86-64)|Linux (x86-64 ARM64), macOS (x86-64 ARM64), Windows (x86-64)|
 |**Monitoring**|Dashboard|||
+
+[<img alt="alt_text" width="800px" src="hello.gif" />]
