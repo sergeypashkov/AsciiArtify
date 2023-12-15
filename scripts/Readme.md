@@ -7,7 +7,9 @@
 **Usage**
 
 The information about node resource:
+
 kubectl kubeplugin node
 
 The information about pod resource in the specified namespace, assumed default if not specified:
+
 kubectl kubeplugin pod kube-system
