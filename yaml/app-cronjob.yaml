@@ -8,8 +8,8 @@ spec:
     spec:
       template:
         spec:
+          restartPolicy: OnFailure
           containers:
             - name: hello
               image: bash
               command: ["echo", "Hello World"]
-              restartPolicy: OnFailure
