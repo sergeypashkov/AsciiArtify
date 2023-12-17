@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-livenessprob
+  namespace: demo
+spec:
+  containers:
+  - name: app
+    image: us-central1-docker.pkg.dev/k8s-k3s-406919/demo/demo-image:v1.0.0
+    ports:
+    - containerPort: 8080
+      name: http
+    livenessProbe:
+      httpGet:
+        path: /
+        port: 8000
+      initialDelaySeconds: 5
+      timeoutSeconds: 1
+      periodSeconds: 10
+      failureThreshold: 3
