@@ -1,1 +1,1 @@
-# AsciiArtify
+app.yaml:create pod app with labels app=demo, run=demo, for image us-central1-docker.pkg.dev/k8s-k3s-406919/demo/demo-image:v1.0.0, container name app, running on port 8080 named http:Creates a pod for DEMO image:https://raw.githubusercontent.com/sergeypashkov/AsciiArtify/main/yaml/app.yaml
